@@ -23,9 +23,8 @@ class MicropostsController extends Controller
                 'user' => $user,
                 'microposts' => $microposts,
             ];
-            
-            return view('welcome', $data);
-        }
+        } 
+            return view('welcome', $data); //check if and return 'welcome' wether the condition matches or not.
     }
 
     
